@@ -1,0 +1,8 @@
+package eclipse;
+
+import java.util.List;
+
+public interface SnapShotAccumulator {
+	void processSnapshotFromEvent(EditorEvent anEditorEvent);
+	List<EditorEvent> getEditorEventList();
+}
