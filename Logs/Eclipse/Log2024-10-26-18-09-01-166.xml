@@ -1,0 +1,619 @@
+<Events startTimestamp="1729980541166" logVersion="1.0.0.202402191826">
+  <Command __id="0" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:09:01 EDT 2024" docASTNodeCount="58" docActiveCodeLength="415" docExpressionCount="31" docLength="415" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="228">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\VisualStudioCommandGeneration.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package eclipse.commandgen;
+
+public class VisualStudioCommandGeneration {
+	static String sourceDir = System.getProperty("user.dir");
+	static String destDir = System.getProperty("user.dir");
+
+	static AnEventVisualizer eventVisualizer;
+
+	public static void main(String[] args) throws Exception {
+		eventVisualizer = new AnEventVisualizer(sourceDir, destDir);
+		eventVisualizer.generateNewLogFile();
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="195" date="Sat Oct 26 18:09:01 EDT 2024" docOffset="195" starttimestamp="1729980541166" timestamp="335" />
+  <Command __id="3" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:09:03 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2675" />
+  <Command __id="4" _type="MoveCaretCommand" caretOffset="28" date="Sat Oct 26 18:09:05 EDT 2024" docOffset="28" starttimestamp="1729980541166" timestamp="4691" />
+  <Command __id="5" _type="InsertStringCommand" date="Sat Oct 26 18:09:06 EDT 2024" starttimestamp="1729980541166" timestamp="5215" timestamp2="5215">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="6" _type="InsertStringCommand" date="Sat Oct 26 18:09:07 EDT 2024" starttimestamp="1729980541166" timestamp="6536" timestamp2="6536">
+    <data><![CDATA[#]]></data>
+  </Command>
+  <Command __id="7" _type="InsertStringCommand" date="Sat Oct 26 18:09:07 EDT 2024" starttimestamp="1729980541166" timestamp="6659" timestamp2="6659">
+    <data><![CDATA[#]]></data>
+  </Command>
+  <Command __id="8" _type="ShellCommand" date="Sat Oct 26 18:09:12 EDT 2024" starttimestamp="1729980541166" timestamp="11161" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="9" _type="ShellCommand" date="Sat Oct 26 18:09:18 EDT 2024" starttimestamp="1729980541166" timestamp="16987" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="10" _type="InsertStringCommand" date="Sat Oct 26 18:09:19 EDT 2024" starttimestamp="1729980541166" timestamp="18087" timestamp2="18087">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="11" _type="InsertStringCommand" date="Sat Oct 26 18:09:19 EDT 2024" starttimestamp="1729980541166" timestamp="18607" timestamp2="18607">
+    <data><![CDATA[P]]></data>
+  </Command>
+  <Command __id="12" _type="InsertStringCommand" date="Sat Oct 26 18:09:20 EDT 2024" starttimestamp="1729980541166" timestamp="18882" timestamp2="18882">
+    <data><![CDATA[u]]></data>
+  </Command>
+  <Command __id="13" _type="InsertStringCommand" date="Sat Oct 26 18:09:20 EDT 2024" starttimestamp="1729980541166" timestamp="18957" timestamp2="18957">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="14" _type="InsertStringCommand" date="Sat Oct 26 18:09:20 EDT 2024" starttimestamp="1729980541166" timestamp="19007" timestamp2="19007">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="15" _type="InsertStringCommand" date="Sat Oct 26 18:09:20 EDT 2024" starttimestamp="1729980541166" timestamp="19077" timestamp2="19077">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="16" _type="InsertStringCommand" date="Sat Oct 26 18:09:20 EDT 2024" starttimestamp="1729980541166" timestamp="19164" timestamp2="19164">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="17" _type="InsertStringCommand" date="Sat Oct 26 18:09:20 EDT 2024" starttimestamp="1729980541166" timestamp="19245" timestamp2="19245">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="18" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:20 EDT 2024" starttimestamp="1729980541166" timestamp="19627" />
+  <Command __id="19" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:20 EDT 2024" starttimestamp="1729980541166" timestamp="19727" />
+  <Command __id="20" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="19857" />
+  <Command __id="21" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="19967" />
+  <Command __id="22" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="20087" />
+  <Command __id="23" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="20217" />
+  <Command __id="24" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="20334" />
+  <Command __id="25" _type="InsertStringCommand" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="20477" timestamp2="20477">
+    <data><![CDATA[D]]></data>
+  </Command>
+  <Command __id="26" _type="InsertStringCommand" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="20607" timestamp2="20607">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="27" _type="InsertStringCommand" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="20697" timestamp2="20697">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="28" _type="InsertStringCommand" date="Sat Oct 26 18:09:21 EDT 2024" starttimestamp="1729980541166" timestamp="20763" timestamp2="20763">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="29" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:22 EDT 2024" starttimestamp="1729980541166" timestamp="21067" />
+  <Command __id="30" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:22 EDT 2024" starttimestamp="1729980541166" timestamp="21177" />
+  <Command __id="31" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:22 EDT 2024" starttimestamp="1729980541166" timestamp="21307" />
+  <Command __id="32" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:22 EDT 2024" starttimestamp="1729980541166" timestamp="21427" />
+  <Command __id="33" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:37 EDT 2024" starttimestamp="1729980541166" timestamp="36221" />
+  <Command __id="34" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:37 EDT 2024" starttimestamp="1729980541166" timestamp="36339" />
+  <Command __id="35" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:37 EDT 2024" starttimestamp="1729980541166" timestamp="36447" />
+  <Command __id="36" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:37 EDT 2024" starttimestamp="1729980541166" timestamp="36711" />
+  <Command __id="37" _type="InsertStringCommand" date="Sat Oct 26 18:09:40 EDT 2024" starttimestamp="1729980541166" timestamp="39056" timestamp2="39056">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="38" _type="InsertStringCommand" date="Sat Oct 26 18:09:40 EDT 2024" starttimestamp="1729980541166" timestamp="39761" timestamp2="39761">
+    <data><![CDATA[3]]></data>
+  </Command>
+  <Command __id="39" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:41 EDT 2024" starttimestamp="1729980541166" timestamp="40035" />
+  <Command __id="40" _type="InsertStringCommand" date="Sat Oct 26 18:09:41 EDT 2024" starttimestamp="1729980541166" timestamp="40169" timestamp2="40169">
+    <data><![CDATA[#]]></data>
+  </Command>
+  <Command __id="41" _type="InsertStringCommand" date="Sat Oct 26 18:09:41 EDT 2024" starttimestamp="1729980541166" timestamp="40307" timestamp2="40307">
+    <data><![CDATA[#]]></data>
+  </Command>
+  <Command __id="42" _type="InsertStringCommand" date="Sat Oct 26 18:09:41 EDT 2024" starttimestamp="1729980541166" timestamp="40504" timestamp2="40504">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="43" _type="InsertStringCommand" date="Sat Oct 26 18:09:42 EDT 2024" starttimestamp="1729980541166" timestamp="41805" timestamp2="41805">
+    <data><![CDATA[C]]></data>
+  </Command>
+  <Command __id="44" _type="InsertStringCommand" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="41890" timestamp2="41890">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="45" _type="InsertStringCommand" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="41949" timestamp2="41949">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="46" _type="InsertStringCommand" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="42084" timestamp2="42084">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="47" _type="InsertStringCommand" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="42142" timestamp2="42142">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="48" _type="InsertStringCommand" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="42218" timestamp2="42218">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="49" _type="InsertStringCommand" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="42289" timestamp2="42289">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="50" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="42422" />
+  <Command __id="51" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="42538" />
+  <Command __id="52" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="42654" />
+  <Command __id="53" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:43 EDT 2024" starttimestamp="1729980541166" timestamp="42777" />
+  <Command __id="54" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="42902" />
+  <Command __id="55" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43020" />
+  <Command __id="56" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43191" />
+  <Command __id="57" _type="InsertStringCommand" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43350" timestamp2="43350">
+    <data><![CDATA[C]]></data>
+  </Command>
+  <Command __id="58" _type="InsertStringCommand" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43399" timestamp2="43399">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="59" _type="InsertStringCommand" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43455" timestamp2="43455">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="60" _type="InsertStringCommand" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43576" timestamp2="43576">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="61" _type="InsertStringCommand" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43654" timestamp2="43654">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="62" _type="InsertStringCommand" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43714" timestamp2="43714">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="63" _type="InsertStringCommand" date="Sat Oct 26 18:09:44 EDT 2024" starttimestamp="1729980541166" timestamp="43820" timestamp2="43820">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="64" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="43893" timestamp2="43893">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="65" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44030" timestamp2="44030">
+    <data><![CDATA[G]]></data>
+  </Command>
+  <Command __id="66" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44101" timestamp2="44101">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="67" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44201" timestamp2="44201">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="68" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44253" timestamp2="44253">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="69" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44346" timestamp2="44346">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="70" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44415" timestamp2="44415">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="71" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44494" timestamp2="44494">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="72" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44544" timestamp2="44544">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="73" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44602" timestamp2="44602">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="74" _type="InsertStringCommand" date="Sat Oct 26 18:09:45 EDT 2024" starttimestamp="1729980541166" timestamp="44661" timestamp2="44661">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="75" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="44900" />
+  <Command __id="76" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45398" />
+  <Command __id="77" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45428" />
+  <Command __id="78" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45457" />
+  <Command __id="79" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45487" />
+  <Command __id="80" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45516" />
+  <Command __id="81" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45548" />
+  <Command __id="82" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45577" />
+  <Command __id="83" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45607" />
+  <Command __id="84" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45639" />
+  <Command __id="85" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45668" />
+  <Command __id="86" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45700" />
+  <Command __id="87" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45729" />
+  <Command __id="88" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45760" />
+  <Command __id="89" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:46 EDT 2024" starttimestamp="1729980541166" timestamp="45791" />
+  <Command __id="90" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:47 EDT 2024" starttimestamp="1729980541166" timestamp="45893" />
+  <Command __id="91" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:47 EDT 2024" starttimestamp="1729980541166" timestamp="46018" />
+  <Command __id="92" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:47 EDT 2024" starttimestamp="1729980541166" timestamp="46151" />
+  <Command __id="93" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:50 EDT 2024" starttimestamp="1729980541166" timestamp="49497" />
+  <Command __id="94" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:50 EDT 2024" starttimestamp="1729980541166" timestamp="49631" />
+  <Command __id="95" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:09:51 EDT 2024" starttimestamp="1729980541166" timestamp="50238" />
+  <Command __id="96" _type="InsertStringCommand" date="Sat Oct 26 18:09:52 EDT 2024" starttimestamp="1729980541166" timestamp="51367" timestamp2="51367">
+    <data><![CDATA[*]]></data>
+  </Command>
+  <Command __id="97" _type="InsertStringCommand" date="Sat Oct 26 18:09:52 EDT 2024" starttimestamp="1729980541166" timestamp="51493" timestamp2="51493">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="98" _type="PasteCommand" date="Sat Oct 26 18:09:52 EDT 2024" starttimestamp="1729980541166" timestamp="51758" />
+  <Command __id="100" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:09:54 EDT 2024" starttimestamp="1729980541166" timestamp="53136" />
+  <Command __id="102" _type="SelectTextCommand" caretOffset="100" date="Sat Oct 26 18:10:03 EDT 2024" end="117" start="100" starttimestamp="1729980541166" timestamp="62231" />
+  <Command __id="103" _type="InsertStringCommand" date="Sat Oct 26 18:10:06 EDT 2024" starttimestamp="1729980541166" timestamp="65774" timestamp2="65774">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="104" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="65834" timestamp2="65834">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="105" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="65925" timestamp2="65925">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="106" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="65976" timestamp2="65976">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="107" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66114" timestamp2="66114">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="108" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66162" timestamp2="66162">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="109" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66221" timestamp2="66221">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="110" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66237" timestamp2="66237">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="111" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66312" timestamp2="66312">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="112" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66419" timestamp2="66419">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="113" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66495" timestamp2="66495">
+    <data><![CDATA[f]]></data>
+  </Command>
+  <Command __id="114" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66541" timestamp2="66541">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="115" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66671" timestamp2="66671">
+    <data><![CDATA[E]]></data>
+  </Command>
+  <Command __id="116" _type="InsertStringCommand" date="Sat Oct 26 18:10:07 EDT 2024" starttimestamp="1729980541166" timestamp="66770" timestamp2="66770">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="117" _type="InsertStringCommand" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="66874" timestamp2="66874">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="118" _type="InsertStringCommand" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="66882" timestamp2="66882">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="119" _type="InsertStringCommand" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="66940" timestamp2="66940">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="120" _type="InsertStringCommand" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="67068" timestamp2="67068">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="121" _type="InsertStringCommand" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="67088" timestamp2="67088">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="122" _type="InsertStringCommand" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="67192" timestamp2="67192">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="123" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="67518" />
+  <Command __id="124" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="67623" />
+  <Command __id="125" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:08 EDT 2024" starttimestamp="1729980541166" timestamp="67749" />
+  <Command __id="126" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:09 EDT 2024" starttimestamp="1729980541166" timestamp="67866" />
+  <Command __id="127" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:09 EDT 2024" starttimestamp="1729980541166" timestamp="67993" />
+  <Command __id="128" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:09 EDT 2024" starttimestamp="1729980541166" timestamp="68104" />
+  <Command __id="129" _type="InsertStringCommand" date="Sat Oct 26 18:10:09 EDT 2024" starttimestamp="1729980541166" timestamp="68297" timestamp2="68297">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="130" _type="InsertStringCommand" date="Sat Oct 26 18:10:09 EDT 2024" starttimestamp="1729980541166" timestamp="68423" timestamp2="68423">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="131" _type="InsertStringCommand" date="Sat Oct 26 18:10:09 EDT 2024" starttimestamp="1729980541166" timestamp="68436" timestamp2="68436">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="132" _type="InsertStringCommand" date="Sat Oct 26 18:10:09 EDT 2024" starttimestamp="1729980541166" timestamp="68579" timestamp2="68579">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="133" _type="InsertStringCommand" date="Sat Oct 26 18:10:09 EDT 2024" starttimestamp="1729980541166" timestamp="68632" timestamp2="68632">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="134" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:10 EDT 2024" starttimestamp="1729980541166" timestamp="69042" />
+  <Command __id="135" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:10 EDT 2024" starttimestamp="1729980541166" timestamp="69168" />
+  <Command __id="136" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:10 EDT 2024" starttimestamp="1729980541166" timestamp="69292" />
+  <Command __id="137" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:10 EDT 2024" starttimestamp="1729980541166" timestamp="69411" />
+  <Command __id="138" _type="InsertStringCommand" date="Sat Oct 26 18:10:10 EDT 2024" starttimestamp="1729980541166" timestamp="69583" timestamp2="69583">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="139" _type="InsertStringCommand" date="Sat Oct 26 18:10:10 EDT 2024" starttimestamp="1729980541166" timestamp="69633" timestamp2="69633">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="140" _type="InsertStringCommand" date="Sat Oct 26 18:10:10 EDT 2024" starttimestamp="1729980541166" timestamp="69709" timestamp2="69709">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="141" _type="InsertStringCommand" date="Sat Oct 26 18:10:10 EDT 2024" starttimestamp="1729980541166" timestamp="69743" timestamp2="69743">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="142" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="69850" timestamp2="69850">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="143" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="69883" timestamp2="69883">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="144" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="69969" timestamp2="69969">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="145" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="70060" timestamp2="70060">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="146" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="70182" timestamp2="70182">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="147" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="70197" timestamp2="70197">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="148" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="70308" timestamp2="70308">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="149" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="70371" timestamp2="70371">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="150" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="70442" timestamp2="70442">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="151" _type="InsertStringCommand" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="70514" timestamp2="70514">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="152" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:10:11 EDT 2024" starttimestamp="1729980541166" timestamp="70802" />
+  <Command __id="155" _type="InsertStringCommand" date="Sat Oct 26 18:10:12 EDT 2024" starttimestamp="1729980541166" timestamp="71346" timestamp2="71346">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="156" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:10:12 EDT 2024" starttimestamp="1729980541166" timestamp="71720" />
+  <Command __id="159" _type="MoveCaretCommand" caretOffset="78" date="Sat Oct 26 18:10:24 EDT 2024" docOffset="78" starttimestamp="1729980541166" timestamp="83178" />
+  <Command __id="160" _type="SelectTextCommand" caretOffset="80" date="Sat Oct 26 18:10:24 EDT 2024" end="80" start="76" starttimestamp="1729980541166" timestamp="83305" />
+  <Command __id="161" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:24 EDT 2024" starttimestamp="1729980541166" timestamp="83684" />
+  <Command __id="162" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:24 EDT 2024" starttimestamp="1729980541166" timestamp="83827" />
+  <Command __id="163" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:10:25 EDT 2024" starttimestamp="1729980541166" timestamp="84123" />
+  <Command __id="166" _type="MoveCaretCommand" caretOffset="41" date="Sat Oct 26 18:10:37 EDT 2024" docOffset="41" starttimestamp="1729980541166" timestamp="96422" />
+  <Command __id="167" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="96887" />
+  <Command __id="168" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97118" timestamp2="97118">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="169" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97184" timestamp2="97184">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="170" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97284" timestamp2="97284">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="171" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97361" timestamp2="97361">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="172" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97447" timestamp2="97447">
+    <data><![CDATA[v]]></data>
+  </Command>
+  <Command __id="173" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97532" timestamp2="97532">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="174" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97624" timestamp2="97624">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="175" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97689" timestamp2="97689">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="176" _type="InsertStringCommand" date="Sat Oct 26 18:10:38 EDT 2024" starttimestamp="1729980541166" timestamp="97765" timestamp2="97765">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="177" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="97887" timestamp2="97887">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="178" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="97941" timestamp2="97941">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="179" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98049" timestamp2="98049">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="180" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98112" timestamp2="98112">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="181" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98184" timestamp2="98184">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="182" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98256" timestamp2="98256">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="183" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98309" timestamp2="98309">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="184" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98385" timestamp2="98385">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="185" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98532" timestamp2="98532">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="186" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98605" timestamp2="98605">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="187" _type="InsertStringCommand" date="Sat Oct 26 18:10:39 EDT 2024" starttimestamp="1729980541166" timestamp="98675" timestamp2="98675">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="188" _type="InsertStringCommand" date="Sat Oct 26 18:10:40 EDT 2024" starttimestamp="1729980541166" timestamp="98869" timestamp2="98869">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="189" _type="InsertStringCommand" date="Sat Oct 26 18:10:40 EDT 2024" starttimestamp="1729980541166" timestamp="98934" timestamp2="98934">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="190" _type="InsertStringCommand" date="Sat Oct 26 18:10:40 EDT 2024" starttimestamp="1729980541166" timestamp="99099" timestamp2="99099">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="191" _type="InsertStringCommand" date="Sat Oct 26 18:10:40 EDT 2024" starttimestamp="1729980541166" timestamp="99194" timestamp2="99194">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="192" _type="InsertStringCommand" date="Sat Oct 26 18:10:40 EDT 2024" starttimestamp="1729980541166" timestamp="99283" timestamp2="99283">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="193" _type="InsertStringCommand" date="Sat Oct 26 18:10:40 EDT 2024" starttimestamp="1729980541166" timestamp="99362" timestamp2="99362">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="194" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:10:41 EDT 2024" starttimestamp="1729980541166" timestamp="99907" />
+  <Command __id="197" _type="MoveCaretCommand" caretOffset="69" date="Sat Oct 26 18:10:41 EDT 2024" docOffset="69" starttimestamp="1729980541166" timestamp="100811" />
+  <Command __id="198" _type="SelectTextCommand" caretOffset="69" date="Sat Oct 26 18:10:42 EDT 2024" end="69" start="66" starttimestamp="1729980541166" timestamp="100949" />
+  <Command __id="199" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:42 EDT 2024" starttimestamp="1729980541166" timestamp="101396" />
+  <Command __id="200" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:42 EDT 2024" starttimestamp="1729980541166" timestamp="101534" />
+  <Command __id="201" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:10:42 EDT 2024" starttimestamp="1729980541166" timestamp="101833" />
+  <Command __id="204" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:10:43 EDT 2024" starttimestamp="1729980541166" timestamp="102339" />
+  <Command __id="205" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:10:43 EDT 2024" starttimestamp="1729980541166" timestamp="102481" />
+  <Command __id="206" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:10:43 EDT 2024" starttimestamp="1729980541166" timestamp="102776" />
+  <Command __id="207" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordPrevious" date="Sat Oct 26 18:10:44 EDT 2024" starttimestamp="1729980541166" timestamp="103226" />
+  <Command __id="208" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordPrevious" date="Sat Oct 26 18:10:44 EDT 2024" starttimestamp="1729980541166" timestamp="103372" />
+  <Command __id="209" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.select.wordPrevious" date="Sat Oct 26 18:10:44 EDT 2024" starttimestamp="1729980541166" timestamp="103819" />
+  <Command __id="210" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.select.wordPrevious" date="Sat Oct 26 18:10:45 EDT 2024" starttimestamp="1729980541166" timestamp="103939" />
+  <Command __id="211" _type="CutCommand" date="Sat Oct 26 18:10:45 EDT 2024" starttimestamp="1729980541166" timestamp="104410" />
+  <Command __id="212" _type="InsertStringCommand" date="Sat Oct 26 18:10:45 EDT 2024" starttimestamp="1729980541166" timestamp="104630" timestamp2="104630">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="213" _type="InsertStringCommand" date="Sat Oct 26 18:10:45 EDT 2024" starttimestamp="1729980541166" timestamp="104689" timestamp2="104689">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="214" _type="InsertStringCommand" date="Sat Oct 26 18:10:45 EDT 2024" starttimestamp="1729980541166" timestamp="104748" timestamp2="104748">
+    <data><![CDATA[w]]></data>
+  </Command>
+  <Command __id="215" _type="InsertStringCommand" date="Sat Oct 26 18:10:46 EDT 2024" starttimestamp="1729980541166" timestamp="104838" timestamp2="104838">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="216" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:10:46 EDT 2024" starttimestamp="1729980541166" timestamp="105138" />
+  <Command __id="219" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:10:46 EDT 2024" starttimestamp="1729980541166" timestamp="105354" />
+  <Command __id="220" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Sat Oct 26 18:10:46 EDT 2024" starttimestamp="1729980541166" timestamp="105648" />
+  <Command __id="221" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Sat Oct 26 18:10:46 EDT 2024" starttimestamp="1729980541166" timestamp="105803" />
+  <Command __id="222" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Sat Oct 26 18:10:47 EDT 2024" starttimestamp="1729980541166" timestamp="105931" />
+  <Command __id="223" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Sat Oct 26 18:10:47 EDT 2024" starttimestamp="1729980541166" timestamp="106092" />
+  <Command __id="224" _type="InsertStringCommand" date="Sat Oct 26 18:10:47 EDT 2024" starttimestamp="1729980541166" timestamp="106475" timestamp2="106475">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="225" _type="InsertStringCommand" date="Sat Oct 26 18:10:47 EDT 2024" starttimestamp="1729980541166" timestamp="106632" timestamp2="106632">
+    <data><![CDATA[(]]></data>
+  </Command>
+  <Command __id="226" _type="InsertStringCommand" date="Sat Oct 26 18:10:47 EDT 2024" starttimestamp="1729980541166" timestamp="106779" timestamp2="106779">
+    <data><![CDATA[w]]></data>
+  </Command>
+  <Command __id="227" _type="InsertStringCommand" date="Sat Oct 26 18:10:48 EDT 2024" starttimestamp="1729980541166" timestamp="106861" timestamp2="106861">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="228" _type="InsertStringCommand" date="Sat Oct 26 18:10:48 EDT 2024" starttimestamp="1729980541166" timestamp="106939" timestamp2="106939">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="229" _type="InsertStringCommand" date="Sat Oct 26 18:10:48 EDT 2024" starttimestamp="1729980541166" timestamp="107012" timestamp2="107012">
+    <data><![CDATA[h]]></data>
+  </Command>
+  <Command __id="230" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:48 EDT 2024" starttimestamp="1729980541166" timestamp="107295" />
+  <Command __id="231" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:48 EDT 2024" starttimestamp="1729980541166" timestamp="107432" />
+  <Command __id="232" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:48 EDT 2024" starttimestamp="1729980541166" timestamp="107562" />
+  <Command __id="233" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:10:48 EDT 2024" starttimestamp="1729980541166" timestamp="107699" />
+  <Command __id="234" _type="PasteCommand" date="Sat Oct 26 18:10:54 EDT 2024" starttimestamp="1729980541166" timestamp="113488" />
+  <Command __id="235" _type="InsertStringCommand" date="Sat Oct 26 18:10:56 EDT 2024" starttimestamp="1729980541166" timestamp="115723" timestamp2="115723">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="236" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="115863" timestamp2="115863">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="237" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="115938" timestamp2="115938">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="238" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="116006" timestamp2="116006">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="239" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="116086" timestamp2="116086">
+    <data><![CDATA[f]]></data>
+  </Command>
+  <Command __id="240" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="116150" timestamp2="116150">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="241" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="116226" timestamp2="116226">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="242" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="116277" timestamp2="116277">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="243" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="116355" timestamp2="116355">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="244" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="116421" timestamp2="116421">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="245" _type="InsertStringCommand" date="Sat Oct 26 18:10:57 EDT 2024" starttimestamp="1729980541166" timestamp="116553" timestamp2="116553">
+    <data><![CDATA[)]]></data>
+  </Command>
+  <Command __id="246" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:10:58 EDT 2024" starttimestamp="1729980541166" timestamp="116837" />
+  <Command __id="249" _type="MoveCaretCommand" caretOffset="126" date="Sat Oct 26 18:11:02 EDT 2024" docOffset="126" starttimestamp="1729980541166" timestamp="121723" />
+  <Command __id="250" _type="MoveCaretCommand" caretOffset="127" date="Sat Oct 26 18:11:03 EDT 2024" docOffset="127" starttimestamp="1729980541166" timestamp="122145" />
+  <Command __id="251" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:11:04 EDT 2024" starttimestamp="1729980541166" timestamp="123431" />
+  <Command __id="252" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:11:04 EDT 2024" starttimestamp="1729980541166" timestamp="123550" />
+  <Command __id="253" _type="InsertStringCommand" date="Sat Oct 26 18:11:04 EDT 2024" starttimestamp="1729980541166" timestamp="123624" timestamp2="123624">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="254" _type="InsertStringCommand" date="Sat Oct 26 18:11:04 EDT 2024" starttimestamp="1729980541166" timestamp="123717" timestamp2="123717">
+    <data><![CDATA[h]]></data>
+  </Command>
+  <Command __id="255" _type="InsertStringCommand" date="Sat Oct 26 18:11:04 EDT 2024" starttimestamp="1729980541166" timestamp="123790" timestamp2="123790">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="256" _type="InsertStringCommand" date="Sat Oct 26 18:11:05 EDT 2024" starttimestamp="1729980541166" timestamp="123880" timestamp2="123880">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="257" _type="InsertStringCommand" date="Sat Oct 26 18:11:05 EDT 2024" starttimestamp="1729980541166" timestamp="124005" timestamp2="124005">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="258" _type="InsertStringCommand" date="Sat Oct 26 18:11:05 EDT 2024" starttimestamp="1729980541166" timestamp="124097" timestamp2="124097">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="259" _type="InsertStringCommand" date="Sat Oct 26 18:11:05 EDT 2024" starttimestamp="1729980541166" timestamp="124126" timestamp2="124126">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="260" _type="InsertStringCommand" date="Sat Oct 26 18:11:05 EDT 2024" starttimestamp="1729980541166" timestamp="124282" timestamp2="124282">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="261" _type="InsertStringCommand" date="Sat Oct 26 18:11:05 EDT 2024" starttimestamp="1729980541166" timestamp="124327" timestamp2="124327">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="262" _type="InsertStringCommand" date="Sat Oct 26 18:11:05 EDT 2024" starttimestamp="1729980541166" timestamp="124402" timestamp2="124402">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="263" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:11:05 EDT 2024" starttimestamp="1729980541166" timestamp="124680" />
+  <Command __id="266" _type="MoveCaretCommand" caretOffset="133" date="Sat Oct 26 18:11:09 EDT 2024" docOffset="133" starttimestamp="1729980541166" timestamp="127949" />
+  <Command __id="267" _type="SelectTextCommand" caretOffset="135" date="Sat Oct 26 18:11:09 EDT 2024" end="135" start="131" starttimestamp="1729980541166" timestamp="128078" />
+  <Command __id="268" _type="MoveCaretCommand" caretOffset="109" date="Sat Oct 26 18:11:15 EDT 2024" docOffset="109" starttimestamp="1729980541166" timestamp="133905" />
+  <Command __id="269" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:11:15 EDT 2024" starttimestamp="1729980541166" timestamp="134299" />
+  <Command __id="270" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:11:15 EDT 2024" starttimestamp="1729980541166" timestamp="134397" />
+  <Command __id="271" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:11:15 EDT 2024" starttimestamp="1729980541166" timestamp="134533" />
+  <Command __id="272" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 18:11:15 EDT 2024" starttimestamp="1729980541166" timestamp="134648" />
+  <Command __id="273" _type="InsertStringCommand" date="Sat Oct 26 18:11:15 EDT 2024" starttimestamp="1729980541166" timestamp="134760" timestamp2="134760">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="274" _type="InsertStringCommand" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="134849" timestamp2="134849">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="275" _type="InsertStringCommand" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="134940" timestamp2="134940">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="276" _type="InsertStringCommand" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="135049" timestamp2="135049">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="277" _type="InsertStringCommand" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="135122" timestamp2="135122">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="278" _type="InsertStringCommand" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="135200" timestamp2="135200">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="279" _type="InsertStringCommand" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="135272" timestamp2="135272">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="280" _type="InsertStringCommand" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="135334" timestamp2="135334">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="281" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="135661" />
+  <Command __id="282" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:11:16 EDT 2024" starttimestamp="1729980541166" timestamp="135789" />
+  <Command __id="283" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:11:17 EDT 2024" starttimestamp="1729980541166" timestamp="135915" />
+  <Command __id="284" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:11:17 EDT 2024" starttimestamp="1729980541166" timestamp="136045" />
+  <Command __id="285" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordNext" date="Sat Oct 26 18:11:17 EDT 2024" starttimestamp="1729980541166" timestamp="136201" />
+  <Command __id="286" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.goto.wordPrevious" date="Sat Oct 26 18:11:17 EDT 2024" starttimestamp="1729980541166" timestamp="136437" />
+  <Command __id="287" _type="EclipseCommand" commandID="org.eclipse.ui.edit.text.select.wordNext" date="Sat Oct 26 18:11:18 EDT 2024" starttimestamp="1729980541166" timestamp="136835" />
+  <Command __id="288" _type="InsertStringCommand" date="Sat Oct 26 18:11:18 EDT 2024" starttimestamp="1729980541166" timestamp="137146" timestamp2="137146">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="289" _type="InsertStringCommand" date="Sat Oct 26 18:11:18 EDT 2024" starttimestamp="1729980541166" timestamp="137232" timestamp2="137232">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="290" _type="InsertStringCommand" date="Sat Oct 26 18:11:18 EDT 2024" starttimestamp="1729980541166" timestamp="137311" timestamp2="137311">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="291" _type="InsertStringCommand" date="Sat Oct 26 18:11:18 EDT 2024" starttimestamp="1729980541166" timestamp="137433" timestamp2="137433">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="292" _type="InsertStringCommand" date="Sat Oct 26 18:11:18 EDT 2024" starttimestamp="1729980541166" timestamp="137676" timestamp2="137676">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="293" _type="InsertStringCommand" date="Sat Oct 26 18:11:18 EDT 2024" starttimestamp="1729980541166" timestamp="137774" timestamp2="137774">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="294" _type="InsertStringCommand" date="Sat Oct 26 18:11:19 EDT 2024" starttimestamp="1729980541166" timestamp="137849" timestamp2="137849">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="295" _type="InsertStringCommand" date="Sat Oct 26 18:11:19 EDT 2024" starttimestamp="1729980541166" timestamp="137942" timestamp2="137942">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="296" _type="InsertStringCommand" date="Sat Oct 26 18:11:19 EDT 2024" starttimestamp="1729980541166" timestamp="137997" timestamp2="137997">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="297" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:11:19 EDT 2024" starttimestamp="1729980541166" timestamp="138244" />
