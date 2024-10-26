@@ -617,3 +617,420 @@ public class VisualStudioCommandGeneration {
     <data><![CDATA[ ]]></data>
   </Command>
   <Command __id="297" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 18:11:19 EDT 2024" starttimestamp="1729980541166" timestamp="138244" />
+  <Command __id="300" _type="ShellCommand" date="Sat Oct 26 18:11:21 EDT 2024" starttimestamp="1729980541166" timestamp="140562" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="301" _type="ShellCommand" date="Sat Oct 26 18:11:36 EDT 2024" starttimestamp="1729980541166" timestamp="155668" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="302" _type="ShellCommand" date="Sat Oct 26 18:11:36 EDT 2024" starttimestamp="1729980541166" timestamp="155707" type="ECLIPSE_MINIMIZED" />
+  <Command __id="303" _type="ShellCommand" date="Sat Oct 26 18:11:36 EDT 2024" starttimestamp="1729980541166" timestamp="155713" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:09:03 EDT 2024" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2513">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\README.md]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[null]]></snapshot>
+  </Command>
+  <Command __id="304" _type="ShellCommand" date="Sat Oct 26 18:13:20 EDT 2024" starttimestamp="1729980541166" timestamp="259197" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="305" _type="ShellCommand" date="Sat Oct 26 18:13:20 EDT 2024" starttimestamp="1729980541166" timestamp="259220" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="306" _type="MoveCaretCommand" caretOffset="567" date="Sat Oct 26 18:13:21 EDT 2024" docOffset="567" starttimestamp="1729980541166" timestamp="259938" />
+  <Command __id="308" _type="MoveCaretCommand" caretOffset="195" date="Sat Oct 26 18:13:22 EDT 2024" docOffset="195" starttimestamp="1729980541166" timestamp="261257" />
+  <Command __id="309" _type="ShellCommand" date="Sat Oct 26 18:13:23 EDT 2024" starttimestamp="1729980541166" timestamp="262675" type="ECLIPSE_MINIMIZED" />
+  <Command __id="310" _type="ShellCommand" date="Sat Oct 26 18:13:23 EDT 2024" starttimestamp="1729980541166" timestamp="262682" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="311" _type="ShellCommand" date="Sat Oct 26 18:15:41 EDT 2024" starttimestamp="1729980541166" timestamp="400177" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="312" _type="ShellCommand" date="Sat Oct 26 18:15:41 EDT 2024" starttimestamp="1729980541166" timestamp="400197" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="313" _type="ShellCommand" date="Sat Oct 26 18:15:42 EDT 2024" starttimestamp="1729980541166" timestamp="401277" type="ECLIPSE_MINIMIZED" />
+  <Command __id="314" _type="ShellCommand" date="Sat Oct 26 18:15:42 EDT 2024" starttimestamp="1729980541166" timestamp="401282" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="315" _type="ShellCommand" date="Sat Oct 26 18:20:28 EDT 2024" starttimestamp="1729980541166" timestamp="687046" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="316" _type="ShellCommand" date="Sat Oct 26 18:20:28 EDT 2024" starttimestamp="1729980541166" timestamp="687065" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="317" _type="MoveCaretCommand" caretOffset="259" date="Sat Oct 26 18:20:29 EDT 2024" docOffset="259" starttimestamp="1729980541166" timestamp="688037" />
+  <Command __id="318" _type="SelectTextCommand" caretOffset="245" date="Sat Oct 26 18:20:30 EDT 2024" end="410" start="245" starttimestamp="1729980541166" timestamp="689067" />
+  <Command __id="319" _type="ShellCommand" date="Sat Oct 26 18:20:32 EDT 2024" starttimestamp="1729980541166" timestamp="691217" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="307" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:13:22 EDT 2024" docASTNodeCount="58" docActiveCodeLength="415" docExpressionCount="31" docLength="415" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="261207">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\VisualStudioCommandGeneration.java]]></filePath>
+    <diff><![CDATA[Diff(EQUAL,"package eclipse.commandgen;public class VisualStudioCommandGeneration {	static String sourceDir = System.getProperty("user.dir");	static String destDir = System.getProperty("user.dir");	static AnEventVisualizer eventVisualizer;	public static void main(String[] args) throws Exception {		eventVisualizer = new AnEventVisualizer(sourceDir, destDir);		eventVisualizer.generateNewLogFile();	}}")]]></diff>
+    <snapshot><![CDATA[null]]></snapshot>
+  </Command>
+  <Command __id="320" _type="ShellCommand" date="Sat Oct 26 18:20:38 EDT 2024" starttimestamp="1729980541166" timestamp="697092" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="321" _type="EclipseCommand" commandID="org.eclipse.e4.ui.importer.openDirectory" date="Sat Oct 26 18:20:38 EDT 2024" starttimestamp="1729980541166" timestamp="697103" />
+  <Command __id="1188" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:48:34 EDT 2024" docASTNodeCount="432" docActiveCodeLength="3205" docExpressionCount="298" docLength="3785" projectName="DifficultyDetection" starttimestamp="1729980541166" timestamp="2373323">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\DifficultyDetection\src\EclipseCommandGeneration.java]]></filePath>
+    <diff><![CDATA[Diff(EQUAL,"import java.time.LocalTime;import com.google.gson.Gson;import com.google.gson.JsonArray;import com.google.gson.JsonObject;import difficulty.detection.difference.ANewDifferenceCalculator;import difficulty.detection.difference.NewDifferenceCalculator;import difficulty.detection.filesystem.AFileSystemAllocator;import difficulty.detection.filesystem.FileSystemAllocator;import difficulty.detection.ipc.ALogFetcher;import difficulty.detection.ipc.ALogPoller;import difficulty.detection.ipc.ALogPutter;import difficulty.detection.ipc.AThreadPool;import difficulty.detection.ipc.AbstractThreadPool;import difficulty.detection.ipc.LogFetcher;import difficulty.detection.ipc.LogPoller;import difficulty.detection.ipc.LogPutter;import difficulty.detection.parsing.AJsonParser;import difficulty.detection.parsing.JsonParser;public class EclipseCommandGeneration {	static final String fakePathName = "C:\\Users\\s8275\\UNC\\Comp421\\A2\\A2\\A2_log.json";	static final AbstractThreadPool aThreadPool = new AThreadPool();	static final String aGetUrl = "";	static final String aFindUrl = "";	static final String aPutUrl = "";	static final String aDataBaseName = "";	static final String aFolderName = "";	static final String aSecretName = "";	static final String pollBodyString = "{\r\n" + "    \"body\": {  \r\n" + "        \"find\": \"log_id\",\r\n"			+ "        \"filter\": {\r\n" + "            \"course_id\": \"Lab_Study_Python_Word_Count_Standalone\"\r\n"			+ "        }\r\n" + "  }\r\n" + "}";	static void trace(String aTraceMessage) {		String aHeader = "[" + LocalTime.now().toString() + "]:" + aTraceMessage;		System.out.println(aHeader);	}	public static void main(String[] args) {		String aFilePath = fakePathName;		Gson aGsonParser = new Gson();		JsonParser aJsonParser = new AJsonParser(aGsonParser, aFilePath);//		JsonParser aRawJsonParser = new AJsonParser(aGsonParser);		JsonObject aFileObject = aJsonParser.getNextFileObject();		JsonArray aDifferenceArray = aFileObject.getAsJsonArray("diffs");		LogFetcher aFetcher = new ALogFetcher(aGetUrl, aDataBaseName, aFolderName, aSecretName);		LogPoller aPoller = new ALogPoller(aFindUrl, aDataBaseName, aFolderName, aSecretName, pollBodyString);		LogPutter aPutter = new ALogPutter(aPutUrl, aDataBaseName, aFolderName, aDifferenceArray);		aPoller.addPropertyChangeListener(aFetcher);		aFetcher.addPropertyChangeListener(aPutter);//		aThreadPool.addThread(aPoller, 0);//		aThreadPool.startThread(0);//		aThreadPool.addThread(aFetcher, 1);//		aThreadPool.startThread(1);//		String aReturnedLog = aFetcher.getLog(aDatabaseName, aCollectionName, aSecret);//		JsonObject aFileObject = aGsonParser.fromJson(aReturnedLog, JsonObject.class);		NewDifferenceCalculator aNewDifferenceCalculator = new ANewDifferenceCalculator(aDifferenceArray);		aNewDifferenceCalculator.createEHICommandList();//		for (EHICommand aCommand : aNewDifferenceCalculator.getCommandList()) {//			trace(aCommand.getCommandType());//		}		String anId = "Jane Doe";		String anId2 = "Sammy Gagou";		FileSystemAllocator allocator = new AFileSystemAllocator("C:\\Users\\s8275\\OneDrive\\Desktop");//		CommandGenerationUtil.writeCommands(aCurrentTime, aNewDifferenceCalculator.getCommandList());		allocator.write(System.currentTimeMillis(), "Comp116", "Spring2023", "Assignment4", anId,				aNewDifferenceCalculator.getCommandList());		allocator.write(System.currentTimeMillis(), "Comp116", "Spring2023", "Assignment4", anId2,				aNewDifferenceCalculator.getCommandList());		trace("Total commands found in " + fakePathName + " is " + aNewDifferenceCalculator.getCommandList().size()				+ " commands");	}}")]]></diff>
+    <snapshot><![CDATA[null]]></snapshot>
+  </Command>
+  <Command __id="1195" _type="ShellCommand" date="Sat Oct 26 18:48:58 EDT 2024" starttimestamp="1729980541166" timestamp="2397095" type="ECLIPSE_MINIMIZED" />
+  <Command __id="1196" _type="ShellCommand" date="Sat Oct 26 18:48:58 EDT 2024" starttimestamp="1729980541166" timestamp="2397101" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1197" _type="ShellCommand" date="Sat Oct 26 18:48:58 EDT 2024" starttimestamp="1729980541166" timestamp="2397602" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="1198" _type="ShellCommand" date="Sat Oct 26 18:48:58 EDT 2024" starttimestamp="1729980541166" timestamp="2397616" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1199" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:04 EDT 2024" docASTNodeCount="422" docActiveCodeLength="3245" docExpressionCount="261" docLength="3383" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2403518">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\AnEventVisualizer.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package eclipse.commandgen;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import javax.json.JsonObject;
+
+public class AnEventVisualizer implements EventVisualizer {
+	private VisualStudioLogParser logParser;
+	private VisualStudioLogWriter logWriter;
+	private DynamicInfoParser dynamicInfoParser;
+	private StaticInfoParser staticInfoParser;
+	private EventCounter eventCounter = new EventCounter(0);
+	private List<EditorEvent> editorEventList;
+
+	public AnEventVisualizer(String aSourcePath, String aDestinationPath) throws IOException {
+		logParser = new AVisualStudioLogParser(aSourcePath + "/log/editLog.json");
+		logWriter = new AVisualStudioLogWriter(aDestinationPath + "/result-log.json");
+		dynamicInfoParser = new ADynamicInfoParser(aSourcePath + "/VSCode-config/dynamicInfo.txt");
+		staticInfoParser = new AStaticInfoParser();
+	}
+
+	private double getElapsedTime(String aStartTime, String anEndTime) {
+		SimpleDateFormat aDateFormat = new SimpleDateFormat("mm/dd/yyyy, hh:mm:ss a");
+		try {
+			Date aStartDate = aDateFormat.parse(aStartTime);
+			Date aEndDate = aDateFormat.parse(anEndTime);
+
+			double aStartMinuteCount = (double) aStartDate.getTime() / (1000 * 60);
+			double anEndMinuteCount = (double) aEndDate.getTime() / (1000 * 60);
+
+			return anEndMinuteCount - aStartMinuteCount;
+		} catch (ParseException e) {
+			System.err.println("could not parse elapsed time");
+			return -1;
+		}
+	}
+
+	private List<EditorEvent> collectOldLogFile() {
+		JsonObject aNextJsonObject = null;
+		List<EditorEvent> editorEventList = new ArrayList<EditorEvent>();
+		while ((aNextJsonObject = logParser.parseNextObject()) != null) {
+			eventCounter.increment();
+			int aLastIndex = editorEventList.size() - 1;
+
+			EditorEvent aPreviousEditorEvent = null;
+			String aPreviousEventType = null;
+
+			EditorEvent aNextEditorEvent = new EditorEvent(aNextJsonObject, dynamicInfoParser, staticInfoParser,
+					logParser, eventCounter);
+			String aCurrentEventType = aNextEditorEvent.getEventType();
+
+			// Make sure we have previous events to draw from.
+			if (aLastIndex > -1) {
+				aPreviousEditorEvent = editorEventList.get(aLastIndex);
+				aPreviousEventType = aPreviousEditorEvent.getEventType();
+				// Make sure the previous event is of the same type.
+
+				if (aPreviousEventType.equals(aCurrentEventType)) {
+					// Set execution count and duration.
+					int aCurrentExecutionCount = aPreviousEditorEvent.getExecutionCount() + 1;
+					aNextEditorEvent.setExecutionCount(aCurrentExecutionCount);
+
+					String aPreviousEventTimeStamp = aPreviousEditorEvent.getStartTimeStamp();
+					String aCurrentEventTimeStamp = aPreviousEditorEvent.getEndTimeStamp();
+
+					aNextEditorEvent.setStartTimeStamp(aPreviousEventTimeStamp);
+
+					double anElapsedMinuteCount = getElapsedTime(aPreviousEventTimeStamp, aCurrentEventTimeStamp);
+					aNextEditorEvent.setDuration(anElapsedMinuteCount);
+				}
+			}
+			editorEventList.add(aNextEditorEvent);
+		}
+		return editorEventList;
+	}
+
+	public void generateNewLogFile() {
+		editorEventList = collectOldLogFile();
+		logWriter.writeEventListToFile(editorEventList);
+	}
+
+	public List<EditorEvent> getEditorEventList() {
+		return editorEventList;
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="1200" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:04 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2403592" />
+  <Command __id="1201" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:07 EDT 2024" docASTNodeCount="168" docActiveCodeLength="1021" docExpressionCount="107" docLength="1021" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2406128">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\AStaticInfoParser.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package eclipse.commandgen;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class AStaticInfoParser implements StaticInfoParser {
+	private File file;
+	private BufferedReader bufferedReader;
+	private String[] fileContent = new String[2];
+
+	public AStaticInfoParser() throws IOException {
+		file = new File(System.getProperty("user.home") + localPath);
+		bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+		fileContent[0] = bufferedReader.readLine();
+		fileContent[0] = bufferedReader.readLine();
+		fileContent[1] = bufferedReader.readLine();
+	}
+
+	public String getMachineID() {
+		return fileContent[0];
+	}
+
+	public void setMachineID(String aNewMachineID) {
+		fileContent[0] = aNewMachineID;
+	}
+
+	public String getUserName() {
+		return fileContent[1];
+	}
+
+	public void setUserName(String aNewUserName) {
+		fileContent[1] = aNewUserName;
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="1202" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:07 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2406201" />
+  <Command __id="1203" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:11 EDT 2024" docASTNodeCount="139" docActiveCodeLength="881" docExpressionCount="87" docLength="881" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2410128">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\AVisualStudioLogParser.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package eclipse.commandgen;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Iterator;
+
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonObject;
+import javax.json.JsonReader;
+import javax.json.JsonValue;
+
+public class AVisualStudioLogParser implements VisualStudioLogParser {
+	private JsonReader jsonReader;
+	private JsonArray jsonArray;
+	private Iterator<JsonValue> iterator;
+
+	public AVisualStudioLogParser(String aSourcePath) throws FileNotFoundException {
+		jsonReader = Json.createReader(new FileInputStream(aSourcePath));
+		jsonArray = jsonReader.readArray();
+		iterator = jsonArray.iterator();
+	}
+
+	public JsonObject parseNextObject() {
+		try {
+			JsonObject aJsonObject = (JsonObject) iterator.next();
+			return aJsonObject;
+		} catch (Exception e) {
+			return null;
+		}
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="1204" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:11 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2410202" />
+  <Command __id="1205" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:14 EDT 2024" docASTNodeCount="307" docActiveCodeLength="2435" docExpressionCount="239" docLength="2435" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2413377">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\AVisualStudioLogWriter.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package eclipse.commandgen;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.List;
+
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonArrayBuilder;
+import javax.json.JsonObject;
+import javax.json.JsonWriter;
+
+public class AVisualStudioLogWriter implements VisualStudioLogWriter {
+	private String destinationPath;
+
+	public AVisualStudioLogWriter(String aDestinationPath) {
+		destinationPath = aDestinationPath;
+	}
+
+	private JsonArray convertEventListToJsonArray(List<EditorEvent> anEditorEventList) {
+		JsonArrayBuilder anArrayBuilder = Json.createArrayBuilder();
+		for (EditorEvent anEditorEvent : anEditorEventList) {
+			JsonObject nextWrittenObject = Json.createObjectBuilder().add("Event_Id", anEditorEvent.getEventID())
+					.add("Event_Id", anEditorEvent.getEventID()).add("Course_Id", anEditorEvent.getCourseID())
+					.add("Machine_Id", anEditorEvent.getMachineID()).add("Session_Id", anEditorEvent.getSessionID())
+					.add("Student_Id", anEditorEvent.getStudentID()).add("Student_Name", anEditorEvent.getStudentName())
+					.add("Milestone", anEditorEvent.getIsMilestone())
+					.add("Milestone_Description", anEditorEvent.getMilestoneDescription())
+					.add("Event", anEditorEvent.getEventName()).add("Event_Type", anEditorEvent.getEventType())
+					.add("Event_Timestamp", anEditorEvent.getEventTimeStamp())
+					.add("Start_Timestamp", anEditorEvent.getStartTimeStamp())
+					.add("End_Timestamp", anEditorEvent.getEndTimeStamp())
+					.add("Event_Result", anEditorEvent.getEventResult())
+					.add("Error_Message", anEditorEvent.getErrorMessage())
+					.add("Error_Type", anEditorEvent.getErrorType()).add("Log_Source", anEditorEvent.getLogSource())
+					.add("Execution_Count", anEditorEvent.getExecutionCount())
+					.add("Error_Count", anEditorEvent.getErrorCount())
+					.add("Duration_Minutes", anEditorEvent.getDuration()).build();
+			anArrayBuilder.add(nextWrittenObject);
+		}
+		return anArrayBuilder.build();
+	}
+
+	public void writeEventListToFile(List<EditorEvent> anEditorEventList) {
+		JsonArray aJsonArray = convertEventListToJsonArray(anEditorEventList);
+		JsonWriter aJsonWriter = null;
+		try {
+			aJsonWriter = Json.createWriter(new PrintWriter(destinationPath));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			System.exit(0);
+		}
+		aJsonWriter.writeArray(aJsonArray);
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="1206" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:14 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2413452" />
+  <Command __id="1207" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:17 EDT 2024" docASTNodeCount="328" docActiveCodeLength="2402" docExpressionCount="204" docLength="2491" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2416484">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\EclipseCommandGeneration.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package eclipse.commandgen;
+
+import static fluorite.commands.generation.CommandGenerationUtil.createDelete;
+import static fluorite.commands.generation.CommandGenerationUtil.createInsert;
+import static fluorite.commands.generation.CommandGenerationUtil.writeCommands;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import fluorite.commands.EHICommand;
+
+// Modeled using EHReaderWriter.java from Comp524All.jar
+public class EclipseCommandGeneration {
+	static long startTimeStamp = System.currentTimeMillis();
+	static long nextTimeStamp = startTimeStamp;
+
+	static int tenSecondPause = 1000 * 10;
+	static int hundredMillisecondPause = 100;
+	static List<EHICommand> ehiCommandList = new ArrayList<EHICommand>();
+	static int maxPauseTime = 1000 * 5;
+
+	static long getNextPauseTime() {
+		return Math.round(maxPauseTime * Math.random());
+	}
+
+	static void setTimeStampOfCommands(List<EHICommand> aCommands) {
+		long aPauseTime = getNextPauseTime();
+		long aNewTimeStamp = nextTimeStamp + aPauseTime;
+
+		for (EHICommand aCommand : aCommands) {
+			aCommand.setStartTimestamp(startTimeStamp);
+			aCommand.setTimestamp(aNewTimeStamp - nextTimeStamp);
+		}
+
+		nextTimeStamp = aNewTimeStamp;
+	}
+
+	static void convertEventListToCommandList(List<EditorEvent> anEditorEventList) {
+		loop: for (EditorEvent anEvent : anEditorEventList) {
+			String anEventType = anEvent.getEventType();
+			int anOffset = Integer.parseInt(anEvent.getPosition().substring(anEvent.getPosition().indexOf(",") + 1));
+			switch (anEventType) {
+			// Insertion type
+			case "backspace":
+			case "undo":
+			case "delete":
+				ehiCommandList.add(createDelete(anOffset, anEvent.getEventResult()));
+				continue loop;
+			// Deletion type
+			case "input":
+			case "paste":
+			case "redo":
+				ehiCommandList.add(createInsert(anOffset, anEvent.getEventResult()));
+				continue loop;
+			}
+		}
+	}
+
+	static void generateEclipseLog(List<EditorEvent> anEditorEventList) {
+		convertEventListToCommandList(anEditorEventList);
+		setTimeStampOfCommands(ehiCommandList);
+		writeCommands(startTimeStamp, ehiCommandList);
+	}
+
+	public static void main(String[] args) throws IOException {
+		String localDirectory = System.getProperty("user.dir");
+		EventVisualizer anEventVisualizer = new AnEventVisualizer(localDirectory, localDirectory);
+		anEventVisualizer.generateNewLogFile();
+		generateEclipseLog(anEventVisualizer.getEditorEventList());
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="1208" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:17 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2416563" />
+  <Command __id="1210" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:24 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2422931" />
+  <Command __id="1211" _type="MoveCaretCommand" caretOffset="405" date="Sat Oct 26 18:49:26 EDT 2024" docOffset="585" starttimestamp="1729980541166" timestamp="2425682" />
+  <Command __id="1212" _type="ShellCommand" date="Sat Oct 26 18:49:28 EDT 2024" starttimestamp="1729980541166" timestamp="2427098" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1209" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:24 EDT 2024" docASTNodeCount="422" docActiveCodeLength="3245" docExpressionCount="261" docLength="3383" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2422868">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\AnEventVisualizer.java]]></filePath>
+    <diff><![CDATA[Diff(EQUAL,"package eclipse.commandgen;import java.io.IOException;import java.text.ParseException;import java.text.SimpleDateFormat;import java.util.ArrayList;import java.util.Date;import java.util.List;import javax.json.JsonObject;public class AnEventVisualizer implements EventVisualizer {	private VisualStudioLogParser logParser;	private VisualStudioLogWriter logWriter;	private DynamicInfoParser dynamicInfoParser;	private StaticInfoParser staticInfoParser;	private EventCounter eventCounter = new EventCounter(0);	private List<EditorEvent> editorEventList;	public AnEventVisualizer(String aSourcePath, String aDestinationPath) throws IOException {		logParser = new AVisualStudioLogParser(aSourcePath + "/log/editLog.json");		logWriter = new AVisualStudioLogWriter(aDestinationPath + "/result-log.json");		dynamicInfoParser = new ADynamicInfoParser(aSourcePath + "/VSCode-config/dynamicInfo.txt");		staticInfoParser = new AStaticInfoParser();	}	private double getElapsedTime(String aStartTime, String anEndTime) {		SimpleDateFormat aDateFormat = new SimpleDateFormat("mm/dd/yyyy, hh:mm:ss a");		try {			Date aStartDate = aDateFormat.parse(aStartTime);			Date aEndDate = aDateFormat.parse(anEndTime);			double aStartMinuteCount = (double) aStartDate.getTime() / (1000 * 60);			double anEndMinuteCount = (double) aEndDate.getTime() / (1000 * 60);			return anEndMinuteCount - aStartMinuteCount;		} catch (ParseException e) {			System.err.println("could not parse elapsed time");			return -1;		}	}	private List<EditorEvent> collectOldLogFile() {		JsonObject aNextJsonObject = null;		List<EditorEvent> editorEventList = new ArrayList<EditorEvent>();		while ((aNextJsonObject = logParser.parseNextObject()) != null) {			eventCounter.increment();			int aLastIndex = editorEventList.size() - 1;			EditorEvent aPreviousEditorEvent = null;			String aPreviousEventType = null;			EditorEvent aNextEditorEvent = new EditorEvent(aNextJsonObject, dynamicInfoParser, staticInfoParser,					logParser, eventCounter);			String aCurrentEventType = aNextEditorEvent.getEventType();			// Make sure we have previous events to draw from.			if (aLastIndex > -1) {				aPreviousEditorEvent = editorEventList.get(aLastIndex);				aPreviousEventType = aPreviousEditorEvent.getEventType();				// Make sure the previous event is of the same type.				if (aPreviousEventType.equals(aCurrentEventType)) {					// Set execution count and duration.					int aCurrentExecutionCount = aPreviousEditorEvent.getExecutionCount() + 1;					aNextEditorEvent.setExecutionCount(aCurrentExecutionCount);					String aPreviousEventTimeStamp = aPreviousEditorEvent.getStartTimeStamp();					String aCurrentEventTimeStamp = aPreviousEditorEvent.getEndTimeStamp();					aNextEditorEvent.setStartTimeStamp(aPreviousEventTimeStamp);					double anElapsedMinuteCount = getElapsedTime(aPreviousEventTimeStamp, aCurrentEventTimeStamp);					aNextEditorEvent.setDuration(anElapsedMinuteCount);				}			}			editorEventList.add(aNextEditorEvent);		}		return editorEventList;	}	public void generateNewLogFile() {		editorEventList = collectOldLogFile();		logWriter.writeEventListToFile(editorEventList);	}	public List<EditorEvent> getEditorEventList() {		return editorEventList;	}}")]]></diff>
+    <snapshot><![CDATA[null]]></snapshot>
+  </Command>
+  <Command __id="1213" _type="ShellCommand" date="Sat Oct 26 18:49:32 EDT 2024" starttimestamp="1729980541166" timestamp="2430856" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1214" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:34 EDT 2024" docASTNodeCount="68" docActiveCodeLength="430" docExpressionCount="28" docLength="430" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2433040">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\EventCounter.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package eclipse.commandgen;
+
+public class EventCounter {
+	private int count;
+
+	public EventCounter() {
+		count = 0;
+	}
+
+	public EventCounter(int aStartingCount) {
+		count = aStartingCount;
+	}
+
+	public void increment() {
+		count++;
+	}
+
+	public void increment(int anIncrementation) {
+		count += anIncrementation;
+	}
+
+	public int getCount() {
+		return count;
+	}
+
+	public void reset() {
+		count = 0;
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="1215" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:34 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2433113" />
+  <Command __id="1216" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:36 EDT 2024" docASTNodeCount="58" docActiveCodeLength="415" docExpressionCount="31" docLength="415" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2435517">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\VisualStudioCommandGeneration.java]]></filePath>
+    <diff><![CDATA[Diff(EQUAL,"package eclipse.commandgen;public class VisualStudioCommandGeneration {	static String sourceDir = System.getProperty("user.dir");	static String destDir = System.getProperty("user.dir");	static AnEventVisualizer eventVisualizer;	public static void main(String[] args) throws Exception {		eventVisualizer = new AnEventVisualizer(sourceDir, destDir);		eventVisualizer.generateNewLogFile();	}}")]]></diff>
+    <snapshot><![CDATA[null]]></snapshot>
+  </Command>
+  <Command __id="1217" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:36 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2435590" />
+  <Command __id="1219" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 18:49:41 EDT 2024" docOffset="0" starttimestamp="1729980541166" timestamp="2440127" />
+  <Command __id="1220" _type="ShellCommand" date="Sat Oct 26 18:49:58 EDT 2024" starttimestamp="1729980541166" timestamp="2457112" type="ECLIPSE_MINIMIZED" />
+  <Command __id="1221" _type="ShellCommand" date="Sat Oct 26 18:49:58 EDT 2024" starttimestamp="1729980541166" timestamp="2457117" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="1224" _type="MoveCaretCommand" caretOffset="963" date="Sat Oct 26 18:51:55 EDT 2024" docOffset="1248" starttimestamp="1729980541166" timestamp="2574105" />
+  <Command __id="1225" _type="ShellCommand" date="Sat Oct 26 18:51:57 EDT 2024" starttimestamp="1729980541166" timestamp="2576010" type="ECLIPSE_CLOSED" />
+  <Command __id="1218" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 18:49:41 EDT 2024" docASTNodeCount="328" docActiveCodeLength="2402" docExpressionCount="204" docLength="2491" projectName="EclipseCommandGeneration-main" starttimestamp="1729980541166" timestamp="2440053">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\EclipseCommandGeneration.java]]></filePath>
+    <diff><![CDATA[Diff(EQUAL,"package eclipse.commandgen;import static fluorite.commands.generation.CommandGenerationUtil.createDelete;import static fluorite.commands.generation.CommandGenerationUtil.createInsert;import static fluorite.commands.generation.CommandGenerationUtil.writeCommands;import java.io.IOException;import java.util.ArrayList;import java.util.List;import fluorite.commands.EHICommand;// Modeled using EHReaderWriter.java from Comp524All.jarpublic class EclipseCommandGeneration {	static long startTimeStamp = System.currentTimeMillis();	static long nextTimeStamp = startTimeStamp;	static int tenSecondPause = 1000 * 10;	static int hundredMillisecondPause = 100;	static List<EHICommand> ehiCommandList = new ArrayList<EHICommand>();	static int maxPauseTime = 1000 * 5;	static long getNextPauseTime() {		return Math.round(maxPauseTime * Math.random());	}	static void setTimeStampOfCommands(List<EHICommand> aCommands) {		long aPauseTime = getNextPauseTime();		long aNewTimeStamp = nextTimeStamp + aPauseTime;		for (EHICommand aCommand : aCommands) {			aCommand.setStartTimestamp(startTimeStamp);			aCommand.setTimestamp(aNewTimeStamp - nextTimeStamp);		}		nextTimeStamp = aNewTimeStamp;	}	static void convertEventListToCommandList(List<EditorEvent> anEditorEventList) {		loop: for (EditorEvent anEvent : anEditorEventList) {			String anEventType = anEvent.getEventType();			int anOffset = Integer.parseInt(anEvent.getPosition().substring(anEvent.getPosition().indexOf(",") + 1));			switch (anEventType) {			// Insertion type			case "backspace":			case "undo":			case "delete":				ehiCommandList.add(createDelete(anOffset, anEvent.getEventResult()));				continue loop;			// Deletion type			case "input":			case "paste":			case "redo":				ehiCommandList.add(createInsert(anOffset, anEvent.getEventResult()));				continue loop;			}		}	}	static void generateEclipseLog(List<EditorEvent> anEditorEventList) {		convertEventListToCommandList(anEditorEventList);		setTimeStampOfCommands(ehiCommandList);		writeCommands(startTimeStamp, ehiCommandList);	}	public static void main(String[] args) throws IOException {		String localDirectory = System.getProperty("user.dir");		EventVisualizer anEventVisualizer = new AnEventVisualizer(localDirectory, localDirectory);		anEventVisualizer.generateNewLogFile();		generateEclipseLog(anEventVisualizer.getEditorEventList());	}}")]]></diff>
+    <snapshot><![CDATA[null]]></snapshot>
+  </Command>
+</Events>

@@ -1,0 +1,129 @@
+<Events startTimestamp="1729984038913" logVersion="1.0.0.202402191826">
+  <Command __id="0" _type="DiffBasedFileOpenCommand" date="Sat Oct 26 19:07:19 EDT 2024" docASTNodeCount="328" docActiveCodeLength="2402" docExpressionCount="204" docLength="2491" projectName="EclipseCommandGeneration-main" starttimestamp="1729984038913" timestamp="208">
+    <filePath><![CDATA[C:\Users\sgagou3\Downloads\EclipseCommandGeneration-main\src\eclipse\commandgen\EclipseCommandGeneration.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package eclipse.commandgen;
+
+import static fluorite.commands.generation.CommandGenerationUtil.createDelete;
+import static fluorite.commands.generation.CommandGenerationUtil.createInsert;
+import static fluorite.commands.generation.CommandGenerationUtil.writeCommands;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import fluorite.commands.EHICommand;
+
+// Modeled using EHReaderWriter.java from Comp524All.jar
+public class EclipseCommandGeneration {
+	static long startTimeStamp = System.currentTimeMillis();
+	static long nextTimeStamp = startTimeStamp;
+
+	static int tenSecondPause = 1000 * 10;
+	static int hundredMillisecondPause = 100;
+	static List<EHICommand> ehiCommandList = new ArrayList<EHICommand>();
+	static int maxPauseTime = 1000 * 5;
+
+	static long getNextPauseTime() {
+		return Math.round(maxPauseTime * Math.random());
+	}
+
+	static void setTimeStampOfCommands(List<EHICommand> aCommands) {
+		long aPauseTime = getNextPauseTime();
+		long aNewTimeStamp = nextTimeStamp + aPauseTime;
+
+		for (EHICommand aCommand : aCommands) {
+			aCommand.setStartTimestamp(startTimeStamp);
+			aCommand.setTimestamp(aNewTimeStamp - nextTimeStamp);
+		}
+
+		nextTimeStamp = aNewTimeStamp;
+	}
+
+	static void convertEventListToCommandList(List<EditorEvent> anEditorEventList) {
+		loop: for (EditorEvent anEvent : anEditorEventList) {
+			String anEventType = anEvent.getEventType();
+			int anOffset = Integer.parseInt(anEvent.getPosition().substring(anEvent.getPosition().indexOf(",") + 1));
+			switch (anEventType) {
+			// Insertion type
+			case "backspace":
+			case "undo":
+			case "delete":
+				ehiCommandList.add(createDelete(anOffset, anEvent.getEventResult()));
+				continue loop;
+			// Deletion type
+			case "input":
+			case "paste":
+			case "redo":
+				ehiCommandList.add(createInsert(anOffset, anEvent.getEventResult()));
+				continue loop;
+			}
+		}
+	}
+
+	static void generateEclipseLog(List<EditorEvent> anEditorEventList) {
+		convertEventListToCommandList(anEditorEventList);
+		setTimeStampOfCommands(ehiCommandList);
+		writeCommands(startTimeStamp, ehiCommandList);
+	}
+
+	public static void main(String[] args) throws IOException {
+		String localDirectory = System.getProperty("user.dir");
+		EventVisualizer anEventVisualizer = new AnEventVisualizer(localDirectory, localDirectory);
+		anEventVisualizer.generateNewLogFile();
+		generateEclipseLog(anEventVisualizer.getEditorEventList());
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="963" date="Sat Oct 26 19:07:19 EDT 2024" docOffset="1248" starttimestamp="1729984038913" timestamp="271" />
+  <Command __id="9" _type="MoveCaretCommand" caretOffset="0" date="Sat Oct 26 19:07:23 EDT 2024" docOffset="0" starttimestamp="1729984038913" timestamp="4246" />
+  <Command __id="10" _type="MoveCaretCommand" caretOffset="537" date="Sat Oct 26 19:07:24 EDT 2024" docOffset="537" starttimestamp="1729984038913" timestamp="5449" />
+  <Command __id="11" _type="MoveCaretCommand" caretOffset="179" date="Sat Oct 26 19:07:24 EDT 2024" docOffset="179" starttimestamp="1729984038913" timestamp="6073" />
+  <Command __id="12" _type="MoveCaretCommand" caretOffset="178" date="Sat Oct 26 19:07:27 EDT 2024" docOffset="178" starttimestamp="1729984038913" timestamp="8345" />
+  <Command __id="13" _type="ShellCommand" date="Sat Oct 26 19:07:36 EDT 2024" starttimestamp="1729984038913" timestamp="17958" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14" _type="ShellCommand" date="Sat Oct 26 19:07:37 EDT 2024" starttimestamp="1729984038913" timestamp="18768" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="15" _type="ShellCommand" date="Sat Oct 26 19:07:37 EDT 2024" starttimestamp="1729984038913" timestamp="19011" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="16" _type="ShellCommand" date="Sat Oct 26 19:08:39 EDT 2024" starttimestamp="1729984038913" timestamp="80996" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17" _type="MoveCaretCommand" caretOffset="584" date="Sat Oct 26 19:08:41 EDT 2024" docOffset="584" starttimestamp="1729984038913" timestamp="82237" />
+  <Command __id="18" _type="InsertStringCommand" date="Sat Oct 26 19:08:42 EDT 2024" starttimestamp="1729984038913" timestamp="83196" timestamp2="83196">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="19" _type="InsertStringCommand" date="Sat Oct 26 19:08:42 EDT 2024" starttimestamp="1729984038913" timestamp="83277" timestamp2="83277">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="20" _type="InsertStringCommand" date="Sat Oct 26 19:08:42 EDT 2024" starttimestamp="1729984038913" timestamp="83456" timestamp2="83456">
+    <data><![CDATA[#]]></data>
+  </Command>
+  <Command __id="21" _type="InsertStringCommand" date="Sat Oct 26 19:08:42 EDT 2024" starttimestamp="1729984038913" timestamp="83599" timestamp2="83599">
+    <data><![CDATA[#]]></data>
+  </Command>
+  <Command __id="22" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 19:08:43 EDT 2024" starttimestamp="1729984038913" timestamp="84336" />
+  <Command __id="23" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 19:08:43 EDT 2024" starttimestamp="1729984038913" timestamp="84446" />
+  <Command __id="24" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 19:08:43 EDT 2024" starttimestamp="1729984038913" timestamp="84582" />
+  <Command __id="25" _type="InsertStringCommand" date="Sat Oct 26 19:08:43 EDT 2024" starttimestamp="1729984038913" timestamp="85017" timestamp2="85017">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="26" _type="InsertStringCommand" date="Sat Oct 26 19:08:44 EDT 2024" starttimestamp="1729984038913" timestamp="85328" timestamp2="85328">
+    <data><![CDATA[#]]></data>
+  </Command>
+  <Command __id="27" _type="InsertStringCommand" date="Sat Oct 26 19:08:44 EDT 2024" starttimestamp="1729984038913" timestamp="85458" timestamp2="85458">
+    <data><![CDATA[#]]></data>
+  </Command>
+  <Command __id="28" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 19:08:47 EDT 2024" starttimestamp="1729984038913" timestamp="88151" />
+  <Command __id="29" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 19:08:47 EDT 2024" starttimestamp="1729984038913" timestamp="88262" />
+  <Command __id="30" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sat Oct 26 19:08:47 EDT 2024" starttimestamp="1729984038913" timestamp="88971" />
+  <Command __id="31" _type="MoveCaretCommand" caretOffset="178" date="Sat Oct 26 19:08:50 EDT 2024" docOffset="178" starttimestamp="1729984038913" timestamp="91545" />
+  <Command __id="32" _type="InsertStringCommand" date="Sat Oct 26 19:08:50 EDT 2024" starttimestamp="1729984038913" timestamp="91761" timestamp2="91761">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="33" _type="InsertStringCommand" date="Sat Oct 26 19:08:50 EDT 2024" starttimestamp="1729984038913" timestamp="92013" timestamp2="92013">
+    <data><![CDATA[*]]></data>
+  </Command>
+  <Command __id="34" _type="InsertStringCommand" date="Sat Oct 26 19:08:51 EDT 2024" starttimestamp="1729984038913" timestamp="92226" timestamp2="92226">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="35" _type="PasteCommand" date="Sat Oct 26 19:08:51 EDT 2024" starttimestamp="1729984038913" timestamp="92394" />
+  <Command __id="36" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Oct 26 19:08:51 EDT 2024" starttimestamp="1729984038913" timestamp="92913" />
+  <Command __id="39" _type="ShellCommand" date="Sat Oct 26 19:08:53 EDT 2024" starttimestamp="1729984038913" timestamp="94094" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="40" _type="ShellCommand" date="Sat Oct 26 19:09:07 EDT 2024" starttimestamp="1729984038913" timestamp="108354" type="ECLIPSE_GAINED_FOCUS" />
